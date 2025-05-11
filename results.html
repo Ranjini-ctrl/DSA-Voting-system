@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - DSA Department Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DSA Department Voting System</h1>
+            <div class="user-info">
+                <p>Welcome, <span id="userDisplayName"></span></p>
+                <button id="logoutBtn" class="btn-small">Logout</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="results-section">
+                <h2>Voting Results</h2>
+                
+                <div class="results-container">
+                    <div class="results-category">
+                        <h3>Girls Category</h3>
+                        <div class="candidate-results" id="girlsResults">
+                            <!-- Results will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="results-category">
+                        <h3>Boys Category</h3>
+                        <div class="candidate-results" id="boysResults">
+                            <!-- Results will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="voter-details">
+                    <h3>Your Vote</h3>
+                    <div id="userVoteDetails">
+                        <!-- User's vote will be displayed here -->
+                    </div>
+                </div>
+                
+                <div class="admin-section" id="adminSection">
+                    <h3>All Votes</h3>
+                    <div class="voter-list" id="voterList">
+                        <!-- List of all voters and their choices will be displayed here -->
+                    </div>
+                </div>
+                
+                <!-- New Winner Section -->
+                <div class="winner-section" id="winnerSection">
+                    <h3>Election Winners</h3>
+                    <div class="winners-container">
+                        <div class="winner-card" id="girlWinner">
+                            <!-- Girls category winner will be displayed here -->
+                        </div>
+                        <div class="winner-card" id="boyWinner">
+                            <!-- Boys category winner will be displayed here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navigation-buttons">
+                <button id="backToVotingBtn" class="btn">Back to Voting</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 DSA Department Voting System</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

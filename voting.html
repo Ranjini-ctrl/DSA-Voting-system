@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote - DSA Department Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DSA Department Voting System</h1>
+            <div class="user-info">
+                <p>Welcome, <span id="userDisplayName"></span></p>
+                <button id="logoutBtn" class="btn-small">Logout</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="voting-section">
+                <h2>Cast Your Vote</h2>
+                <p class="instructions">Please select one candidate from each category.</p>
+                
+                <form id="votingForm">
+                    <div class="candidate-section">
+                        <h3>Girls Category</h3>
+                        <div class="candidates">
+                            <div class="candidate">
+                                <input type="radio" id="girl1" name="girlCandidate" value="Rose" required>
+                                <label for="girl1">Rose</label>
+                            </div>
+                            <div class="candidate">
+                                <input type="radio" id="girl2" name="girlCandidate" value="Janani">
+                                <label for="girl2">Janani</label>
+                            </div>
+                            <div class="candidate">
+                                <input type="radio" id="girl3" name="girlCandidate" value="Keerthi">
+                                <label for="girl3">Keerthi</label>
+                            </div>
+                            <div class="candidate nota">
+                                <input type="radio" id="girlNota" name="girlCandidate" value="NOTA">
+                                <label for="girlNota">NOTA (None of the Above)</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="candidate-section">
+                        <h3>Boys Category</h3>
+                        <div class="candidates">
+                            <div class="candidate">
+                                <input type="radio" id="boy1" name="boyCandidate" value="Yazhan" required>
+                                <label for="boy1">Yazhan</label>
+                            </div>
+                            <div class="candidate">
+                                <input type="radio" id="boy2" name="boyCandidate" value="Amrish">
+                                <label for="boy2">Amrish</label>
+                            </div>
+                            <div class="candidate">
+                                <input type="radio" id="boy3" name="boyCandidate" value="Ashwin">
+                                <label for="boy3">Ashwin</label>
+                            </div>
+                            <div class="candidate nota">
+                                <input type="radio" id="boyNota" name="boyCandidate" value="NOTA">
+                                <label for="boyNota">NOTA (None of the Above)</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn">Submit Vote</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 DSA Department Voting System</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
