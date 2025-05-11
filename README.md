@@ -2,6 +2,9 @@
 
 A responsive and interactive web-based voting system for the DSA department, allowing students to vote for candidates in boys and girls categories.
 
+To view project :
+ https://staging.d5qpprqidx0ia.amplifyapp.com/
+
 ## Features
 
 - **User Authentication**: Login with username, year, and roll number
