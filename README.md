@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/1ca18b93-c895-4589-8cb5-10e42bf165aa
+
 # DSA Department Voting System
 
 A responsive and interactive web-based voting system for the DSA department, allowing students to vote for candidates in boys and girls categories.
